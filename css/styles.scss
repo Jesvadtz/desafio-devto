@@ -1,0 +1,57 @@
+$dev-purple: #3b49df;
+$dev-white: #ffffff;
+$dev-radius: 0.375rem;
+$dev-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+.btn-purple {
+  background-color: $dev-purple;
+  color: $dev-white;
+  border-radius: $dev-radius;
+  font-size: 0.8rem;
+  height: 2.5rem;
+  padding: 8px 16px;
+  font-family: $dev-font;
+}
+.menu-mobile {
+  border: none;
+}
+#inputSearch {
+  button {
+    font-size: 24px;
+  }
+}
+main {
+  margin-top: 80px;
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      padding-right: 1rem;
+    }
+  }
+}
+
+//Estilos de page Post
+.post-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.image-post-header {
+  width: 100%;
+  margin-top: 66px;
+}
+
+//Media Queries home
+
+@media screen and (min-width: 768px) {
+  #inputSearch {
+    width: 420px;
+
+    button {
+      position: relative;
+      left: -48px;
+    }
+  }
+}

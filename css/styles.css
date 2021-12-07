@@ -1,0 +1,51 @@
+.btn-purple {
+  background-color: #3b49df;
+  color: #ffffff;
+  border-radius: 0.375rem;
+  font-size: 0.8rem;
+  height: 2.5rem;
+  padding: 8px 16px;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.menu-mobile {
+  border: none;
+}
+
+#inputSearch button {
+  font-size: 24px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+main ul {
+  padding: 0;
+}
+
+main ul li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.post-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.image-post-header {
+  width: 100%;
+  margin-top: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  #inputSearch {
+    width: 420px;
+  }
+  #inputSearch button {
+    position: relative;
+    left: -48px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
