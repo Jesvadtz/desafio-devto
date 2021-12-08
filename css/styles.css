@@ -109,6 +109,34 @@ footer {
   right: 16px;
 }
 
+.btn-likes:hover {
+  background-color: rgba(220, 24, 24, 0.1);
+  border-radius: 50%;
+  fill: #d31616;
+}
+
+.btn-unicornio:hover {
+  background-color: rgba(38, 217, 202, 0.1);
+  border-radius: 50%;
+  fill: #26d9ca;
+}
+
+.btn-comments:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+  border-radius: 50%;
+  fill: #3b49df;
+}
+
+.hover-white:hover {
+  background-color: #ffffff;
+  color: #3b49df;
+}
+
+.hover-gray:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #090909;
+}
+
 @media screen and (min-width: 768px) {
   #inputSearch {
     width: 420px;
