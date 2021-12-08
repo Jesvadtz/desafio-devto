@@ -9,10 +9,83 @@ $dev-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif,
   color: $dev-white;
   border-radius: $dev-radius;
   font-size: 0.8rem;
-  height: 2.5rem;
+  height: 3.5rem;
   padding: 8px 16px;
   font-family: $dev-font;
 }
+
+/* SASS de Vryahn dont touch */
+
+.btn-vryahn {
+  color: black;
+  border-radius: $dev-radius;
+  font-size: 1rem;
+  height: auto;
+  padding: 8px 16px;
+  font-family: $dev-font;
+  text-align: start;
+  margin: 0;
+}
+
+.btn-vryahn:hover {
+  color: $dev-purple;
+  border-radius: $dev-radius;
+  font-size: 1rem;
+  height: auto;
+  padding: 8px 16px;
+  font-family: $dev-font;
+  text-align: start;
+  margin: 0;
+}
+
+.new-vryahn{
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  font-size: smaller;
+  color: white;
+  background-color: $dev-purple;
+  width: 30px;
+  height: 20px;
+}
+
+.btn-title-vryahn {
+  color: black;
+  border-radius: $dev-radius;
+  font-size: 1.3rem;
+  height: auto;
+  font-family: $dev-font;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.btn-title-vryahn:hover {
+  color: $dev-purple;
+  border-radius: $dev-radius;
+  font-size: 1.3rem;
+  height: auto;
+  font-family: $dev-font;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.sinbutton-title-vryahn {
+  color: black;
+  border-radius: $dev-radius;
+  font-size: 1.3rem;
+  height: auto;
+  font-family: $dev-font;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+/* Aqui termina el SASS de Vryahn, haz lo que quieras a partir de aca :P*/
+
 .menu-mobile {
   border: none;
 }
@@ -55,7 +128,3 @@ main {
     }
   }
 }
-
-.btn-vryahn {
-  @include button-variant(pink, red, red, #444, #333, red);
-  color: #fff;
