@@ -29,6 +29,15 @@ main ul li {
   padding-right: 1rem;
 }
 
+.left_aside_section .aside_column {
+  width: 23.5%;
+}
+
+.left_aside_section .aside_cont {
+  width: 74.5%;
+  margin-right: 0;
+}
+
 .post-container {
   padding-left: 0;
   padding-right: 0;
