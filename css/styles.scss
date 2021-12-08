@@ -29,6 +29,9 @@ $dev-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif,
   font-size: 0.8rem;
 }
 #inputSearch {
+  height: 40px;
+  align-items: center;
+
   button {
     font-size: 24px;
   }
@@ -78,6 +81,17 @@ footer {
 }
 .bg-readnext {
   background-color: #f9f9f9;
+}
+
+.fixed-aside-left {
+  position: sticky;
+  top: 120px;
+  z-index: 1020;
+}
+.fixed-aside-right {
+  position: sticky;
+  top: 80px;
+  z-index: 1020;
 }
 //Media Queries home
 
