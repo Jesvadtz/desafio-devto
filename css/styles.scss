@@ -93,6 +93,12 @@ footer {
   top: 80px;
   z-index: 1020;
 }
+.badge-user {
+  position: relative;
+  bottom: -12px;
+  z-index: 1;
+  right: 16px;
+}
 //Media Queries home
 
 @media screen and (min-width: 768px) {
