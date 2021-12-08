@@ -2,22 +2,37 @@
   background-color: #3b49df;
   color: #ffffff;
   border-radius: 0.375rem;
-  font-size: 0.8rem;
   height: 2.5rem;
   padding: 8px 16px;
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.btn-purple:hover {
+  background-color: #323ebe;
+  color: #ffffff;
+}
+
+.purple-hover:hover {
+  color: #3b49df;
 }
 
 .menu-mobile {
   border: none;
 }
 
-#inputSearch button {
-  font-size: 24px;
+.user-date {
+  font-size: 0.8rem;
 }
 
-main {
-  margin-top: 80px;
+#inputSearch {
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#inputSearch button {
+  font-size: 24px;
 }
 
 main ul {
@@ -45,7 +60,90 @@ main ul li {
 
 .image-post-header {
   width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.principal-container {
   margin-top: 66px;
+}
+
+.margin-header-fix {
+  margin-top: 66px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.link-purple {
+  color: #3b49df;
+}
+
+.tex-yellow {
+  background-color: yellow;
+  overflow-wrap: break-word;
+}
+
+footer {
+  background-color: #d6d6d7;
+}
+
+.bg-readnext {
+  background-color: #f9f9f9;
+}
+
+.fixed-aside-left {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+  z-index: 1020;
+}
+
+.fixed-aside-right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  z-index: 1020;
+}
+
+.badge-user {
+  position: relative;
+  bottom: -12px;
+  z-index: 1;
+  right: 16px;
+}
+
+.btn-likes:hover {
+  background-color: rgba(220, 24, 24, 0.1);
+  border-radius: 50%;
+  fill: #d31616;
+}
+
+.btn-unicornio:hover {
+  background-color: rgba(38, 217, 202, 0.1);
+  border-radius: 50%;
+  fill: #26d9ca;
+}
+
+.btn-comments:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+  border-radius: 50%;
+  fill: #3b49df;
+}
+
+.hover-white:hover {
+  background-color: #ffffff;
+  color: #3b49df;
+}
+
+.hover-gray:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #090909;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,6 +153,13 @@ main ul li {
   #inputSearch button {
     position: relative;
     left: -48px;
+  }
+  .margin-header-fix {
+    margin-top: 80px;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
   }
 }
 /*# sourceMappingURL=styles.css.map */
