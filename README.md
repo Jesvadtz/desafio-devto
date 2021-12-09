@@ -25,7 +25,7 @@ Esta es la versión final final, pero puede haber una versión final final final
 * **Christian Luna** - *El Técnico*
 * **Bryan Rodríguez** - *El Alma de la Fiesta*
 
-También indirectamente nos ayudó Aldo Aldaco, enviándonos el código en SASS y Bootstrap, bien buena onda hjashdjkahdkjad (no no es cierto, 
+También indirectamente nos ayudó Aldo Aldaco, enviándonos el código en SASS y Bootstrap, bien buena onda hjashdjkahdkjad (no no es cierto)
 
 ## Licencia 📄
 
@@ -33,6 +33,6 @@ Es OpenSource porque somos buenas ondas
 
 ## Expresiones de Gratitud 🎁
 
-* Gracias a mi mamá, a las mamás de mis compañeros y a papá Aldo (no nos dejes Aldito *___*) 📢
+* Gracias a mi mamá, a las mamás de mis compañeros y a papá Aldo (no nos dejes Aldito D:!) 📢
 * Taquiza en casa de Jess el viernes a las 5 pm
 * Roberto lleva las monas chinas 🤓
