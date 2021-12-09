@@ -20,7 +20,7 @@
   <header>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white">
       <div class="container-lg">
-        <div class="d-flex justify-content-md-between">
+        <div class="d-flex justify-content-md-between align-items-center">
           <button class="navbar-toggler d-md-none menu-mobile" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -34,6 +34,7 @@
         <div class="d-flex justify-content-end">
           <a class="nav-link d-none d-md-block">Log in</a>
           <button class="btn btn-purple" type="submit">Create account</button>
+          
         </div>
         <!--Menú mobile Cris-->
         <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="offcanvasNavbar"
@@ -50,7 +51,7 @@
                 <p class="card-text">We're a place where coders share, stay up-to-date and grow their careers.</p>
                 <div class="d-flex flex-column">
                   <button href="#" class="btn btn-purple" width="100">Create account</button>
-                  <a href="#" class="card-link">Another link</a>
+                  <a href="#" class="btn btn-light--ghost-brand w-100">Log in</a>
                 </div>
               </div>
             </div>
@@ -60,67 +61,69 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-sign.svg" alt="Sing In/Up Icon">
                 <a class="nav-link" href="#">Sign In/Up</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-scroll.svg" alt="Listings Icon">
                 <a class="nav-link" href="#">Listings</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-podcasts.svg" alt="Podcasts Icon">
                 <a class="nav-link" href="#">Podcasts</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Home Icon">
+                <img src="assets/svg/icon-videos.svg" alt="Videos Icon">
                 <a class="nav-link" aria-current="page" href="#">Videos</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-tags.svg" alt="Tags Icon">
                 <a class="nav-link" href="#">Tags</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-faq.svg" alt="FAQ Icon">
                 <a class="nav-link" href="#">FAQ</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-devshop.svg" alt="Dev Shop Icon">
                 <a class="nav-link" href="#">DEV Shop</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Home Icon">
+                <img src="assets/svg/icon-sponsors.svg" alt="Sponsors Icon">
                 <a class="nav-link" aria-current="page" href="#">Sponsors</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-about.svg" alt="About Icon">
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-contact.svg" alt="Contact Icon">
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <p>Other</p>
+            <h2 id="other-nav-heading" class="mt-6 mb-2 fs-base">
+              Other
+            </h2>
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-codeofconduct.svg" alt="Code of Conduct Icon">
                 <a class="nav-link" href="#">Code of Conduct</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Home Icon">
+                <img src="assets/svg/icon-privacypolicy.svg" alt="Privacy Policy Icon">
                 <a class="nav-link" aria-current="page" href="#">Privacy Policy</a>
               </li>
               <li class="nav-item d-flex">
-                <img src="assets/svg/icon-home.svg" alt="Sing In/Up Icon">
+                <img src="assets/svg/icon-terms.svg" alt="Terms of Use Icon">
                 <a class="nav-link" href="#">Terms of use</a>
               </li>
             </ul>
             <div id="socialMedia">
-              <a href=""><img src="assets/svg/icon-home.svg" alt="Twitter Logo"></a>
-              <a href=""><img src="assets/svg/icon-home.svg" alt="Facebook Logo"></a>
-              <a href=""><img src="assets/svg/icon-home.svg" alt="Github Logo"></a>
-              <a href=""><img src="assets/svg/icon-home.svg" alt="Instagram Logo"></a>
-              <a href=""><img src="assets/svg/icon-home.svg" alt="Twich Logo"></a>
+              <a href=""><img src="assets/svg/icon-twitter.svg" alt="Twitter Logo"></a>
+              <a href=""><img src="assets/svg/icon-facebook.svg" alt="Facebook Logo"></a>
+              <a href=""><img src="assets/svg/icon-github.svg" alt="Github Logo"></a>
+              <a href=""><img src="assets/svg/icon-instagram.svg" alt="Instagram Logo"></a>
+              <a href=""><img src="assets/svg/icon-twitch.svg" alt="Twitch Logo"></a>
             </div>
           </div>
         </div>
@@ -138,14 +141,159 @@
       </div>
     </nav>
     <!--Post Sections-->
-    <section class="container row"> <!--Contenedor de las 3 secciones-->
+
+      <!--Contenedor de las 3 secciones-->
       <!--Aside Left Cris-->
-      <section class="card card-post bg-white p-3 col-sm-2">
-        
-      </section>
+      <section class="container">
+        <div class="row"><!--Contenedor de las 3 secciones-->
+        <aside class="col-12 col-md-3 p-3 bg-white flex-shrink-1 d-none d-md-block">
+
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><a href="index.html">Dev Community</a> is a community of 757,079 amazing
+                developers</h5>
+              <p class="card-text">We're a place where coders share, stay up-to-date and grow their careers.</p>
+              <div class="d-flex flex-column">
+                <button href="#" class="btn btn-purple w-100 mb-2">Create account</button>
+                <a href="#" class="btn btn-light--ghost-brand w-100">Log in</a>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-home.svg" alt="Home Icon">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-sign.svg" alt="Sing In/Up Icon">
+              <a class="nav-link"  href="#">Sign In/Up</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-scroll.svg" alt="Listings Icon">
+              <a class="nav-link" href="#">Listings</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-podcasts.svg" alt="Podcasts Icon">
+              <a class="nav-link" href="#">Podcasts</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-videos.svg" alt="Videos Icon">
+              <a class="nav-link" aria-current="page" href="#">Videos</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-tags.svg" alt="Tags Icon">
+              <a class="nav-link" href="#">Tags</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-faq.svg" alt="FAQ Icon">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-devshop.svg" alt="Dev Shop">
+              <a class="nav-link" href="#">DEV Shop</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-sponsors.svg" alt="Sponsors">
+              <a class="nav-link" aria-current="page" href="#">Sponsors</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-about.svg" alt="About Icon">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-contact.svg" alt="Contact Icon">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <h2 id="other-nav-heading" class="mt-6 mb-2 fs-base">
+            Other
+          </h2>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-codeofconduct.svg" alt="Code of Conduct Icon">
+              <a class="nav-link" href="#">Code of Conduct</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-privacypolicy.svg" alt="Privacy Policy Icon">
+              <a class="nav-link" aria-current="page" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item d-flex">
+              <img src="assets/svg/icon-terms.svg" alt="Terms of use Icon">
+              <a class="nav-link" href="#">Terms of use</a>
+            </li>
+          </ul>
+          <div id="socialMedia" class="d-flex">
+            <a href=""><img src="assets/svg/icon-twitter.svg" class="img-tumb" alt="Twitter Logo"></a>
+            <a href=""><img src="assets/svg/icon-facebook.svg" alt="Facebook Logo"></a>
+            <a href=""><img src="assets/svg/icon-github.svg" alt="Github Logo"></a>
+            <a href=""><img src="assets/svg/icon-instagram.svg" alt="Instagram Logo"></a>
+            <a href=""><img src="assets/svg/icon-twitch.svg" alt="Twitch Logo"></a>
+          </div>
+  
+          <h3 class="crayons-subtitle-3 p-2">Popular Tags</h3>
+  
+          <div id="scrollList" class="list-group border-0 scrollspy" data-bs-spy="scroll" data-bs-target="#scrollList" data-bs-offset="0" tabindex="0">
+  
+            <a href="#list-item-1" class="list-group-item list-group-item-action list-group-item-light">#javascript</a>
+            <a href="#list-item-2" class="list-group-item list-group-item-action list-group-item-light">#webdev</a>
+            <a href="#list-item-3" class="list-group-item list-group-item-action list-group-item-light">#beginners</a>
+            <a href="#list-item-4" class="list-group-item list-group-item-action list-group-item-light">#programming</a>
+            <a href="#list-item-5" class="list-group-item list-group-item-action list-group-item-light">#tutorial</a>
+            <a href="#list-item-6" class="list-group-item list-group-item-action list-group-item-light">#react</a>
+            <a href="#list-item-7" class="list-group-item list-group-item-action list-group-item-light">#python</a>
+            <a href="#list-item-8" class="list-group-item list-group-item-action list-group-item-light">#productivity</a>
+            <a href="#list-item-9" class="list-group-item list-group-item-action list-group-item-light">#css</a>
+            <a href="#list-item-10" class="list-group-item list-group-item-action list-group-item-light">#devops</a>
+            <a href="#list-item-11" class="list-group-item list-group-item-action list-group-item-light">#html</a>
+            <a href="#list-item-12" class="list-group-item list-group-item-action list-group-item-light">#career</a>
+            <a href="#list-item-13" class="list-group-item list-group-item-action list-group-item-light">#opensource</a>
+            <a href="#list-item-14" class="list-group-item list-group-item-action list-group-item-light">#node</a>
+            <a href="#list-item-15" class="list-group-item list-group-item-action list-group-item-light">#codenewbie</a>
+            <a href="#list-item-16" class="list-group-item list-group-item-action list-group-item-light">#discuss</a>
+            <a href="#list-item-17" class="list-group-item list-group-item-action list-group-item-light">#android</a>
+            <a href="#list-item-18" class="list-group-item list-group-item-action list-group-item-light">#aws</a>
+            <a href="#list-item-19" class="list-group-item list-group-item-action list-group-item-light">#github</a>
+            <a href="#list-item-20" class="list-group-item list-group-item-action list-group-item-light">#java</a>
+            <a href="#list-item-21" class="list-group-item list-group-item-action list-group-item-light">#typescript</a>
+            <a href="#list-item-22" class="list-group-item list-group-item-action list-group-item-light">#testing</a>
+            <a href="#list-item-23" class="list-group-item list-group-item-action list-group-item-light">#linux</a>
+            <a href="#list-item-24" class="list-group-item list-group-item-action list-group-item-light">#php</a>
+            <a href="#list-item-25" class="list-group-item list-group-item-action list-group-item-light">#blockchain</a>
+            <a href="#list-item-26" class="list-group-item list-group-item-action list-group-item-light">#machinelearning</a>
+            <a href="#list-item-27" class="list-group-item list-group-item-action list-group-item-light">#showdev</a>
+            <a href="#list-item-28" class="list-group-item list-group-item-action list-group-item-light">#database</a>
+            <a href="#list-item-29" class="list-group-item list-group-item-action list-group-item-light">#100daysofcode</a>
+            <a href="#list-item-30" class="list-group-item list-group-item-action list-group-item-light">#cloud</a>
+          </div>
+            
+  
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--pVCMYZWJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://scontent-lga3-1.cdninstagram.com/vp/7c898e2c9e9fa71f72dd5d422d444549/5DFE1BFA/t51.2885-15/fr/e15/s1080x1080/57390242_386431405416711_440644832181536446_n.jpg%3F_nc_ht%3Dscontent-lga3-1.cdninstagram.com" width="" height="" loading="lazy">
+            <div class="card-body">
+              <h2><a href="https://shop.dev.to/products/sticker-pack-1"> Get Your Stickers! </a></h2>
+            </div>
+          </div>
+  
+          <div class="card mt-3" style="width: 18rem;">
+            <div class="card-body">
+              
+              <p class="card-text"> 
+              DEV runs on 100% open source code known as 
+              <a href="https://github.com/forem/forem">Forem</a></p>
+              <p class="card-text">Contribute to the codebase or host your own!.</p>
+              <strong>Check these out! 👇</strong>
+              <ul>
+                <li><a href="https://github.com/forem/forem">Main Forem Repo</a></li>
+                <li><a href="https://github.com/forem/selfhost">Self-Host Instructions</a></li>
+                </ul>
+            </div>
+          </div>
+  
+        </aside>
 
       <!--Post Monica-->
-      <section class="card card-post bg-white p-3 col-sm-7">
+      <section class="card card-post col-12 col-md-6 bg-white p-3">
+
         <div class="devcard-header d-flex align-items-start">
           <div class="card-user d-flex">
             <img src="assets/user-dev.webp" alt="Usuario Imagen" width="32" height="32">
@@ -189,6 +337,49 @@
             <button class="btn btn-purple">Save</button>
           </div>
         </div>
+          <!---card nueva-->
+        <div class="devcard-header d-flex align-items-start border-1">
+          <div class="card-user d-flex">
+            <img src="assets/vryahn.png" alt="Usuario Imagen" width="32" height="32">
+            <div class="user-name d-flex">
+              <p>Vryahn</p><br>
+              <p class="user-date">Dec4</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center">
+            
+            <span></span>
+          </div>
+        </div>
+        <div class="devcard-main">
+          <a href="pages/post.html">
+            <h3>Looking for a remote job?</h3>
+          </a>
+          <div class="devcard-tags">
+            <span>#showdev</span>
+            <span>#career</span>
+            <span>#watercooler</span>
+            <span>#productivity</span>
+          </div>
+        </div>
+        <div class="devcard-footer bg-white d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="devcard-likes">
+              <img src="assets/svg/icon-heart.svg" alt="Likes icon">
+              <span>3 reactions</span>
+            </div>
+            <div class="devcard-comments">
+              <img src="assets/svg/iccon-comment.svg" alt="Comment icon">
+              <span>1 comments</span>
+            </div>
+          </div>
+          <div class="card-read d-flex">
+            <span>1 min read</span>
+            <button class="btn btn-purple">Save</button>
+          </div>
+        </div>
+        
+
       </section>
 
       <!--Aside Right Vryhan... dont touch plisss-->
@@ -269,7 +460,8 @@
 </section>
 
 
-    </section>
+    </div>
+    </sectio>
 
   </main>
 
