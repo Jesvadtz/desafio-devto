@@ -545,13 +545,100 @@
                   >
                 </div>
               </nav>
-              <section class="card card-post p-3">
+
+              <section class="card card-post p-3" style="margin-top: 10px">
                 <img
                   src="https://picsum.photos/seed/picsum/200/300
                 "
                   alt="Imagen post"
                   style="height: 202px"
                 />
+                <div
+                  class="devcard-header d-flex align-items-start justify-content-between"
+                >
+                  <div class="card-user d-flex ps-3 align-items-center">
+                    <img
+                      src="assets/user-dev.webp"
+                      alt="Usuario Imagen"
+                      width="32"
+                      height="32"
+                      class="me-2 rounded-circle"
+                    />
+                    <div class="user-name d-flex flex-column">
+                      <p class="mb-0">
+                        Ben Halpern <span>for</span> The DEV Team
+                      </p>
+                      <p class="user-date text-secondary mb-0">Dec3</p>
+                    </div>
+                  </div>
+                  <div class="devcard-pin d-flex align-items-center pe-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewbox="0 0 24 24"
+                      width="24"
+                      height="24"
+                      aria-hidden="true"
+                      class="mr-1 align-text-bottom color-accent-brand me-2"
+                      fill="#3B49DF"
+                    >
+                      <path
+                        d="M22.314 10.172l-1.415 1.414-.707-.707-4.242 4.242-.707 3.536-1.415 1.414-4.242-4.243-4.95 4.95-1.414-1.414 4.95-4.95-4.243-4.242 1.414-1.415L8.88 8.05l4.242-4.242-.707-.707 1.414-1.415z"
+                      ></path>
+                    </svg>
+                    <span class="text-secondary">Pinned</span>
+                  </div>
+                </div>
+                <div class="devcard-main p-3">
+                  <a href="pages/post.html" class="text-decoration-none">
+                    <h2 class="text-black link-purple fw-bold">
+                      Last Chance to Join the 2021 GitHub Actions Hackathon on
+                      DEV!
+                    </h2>
+                  </a>
+                  <div class="devcard-tags mb-2">
+                    <span>#meta</span>
+                    <span>#actionshackathon21</span>
+                  </div>
+                </div>
+                <div
+                  class="devcard-footer bg-white d-flex justify-content-between align-items-center ps-3"
+                >
+                  <div class="d-flex">
+                    <a href="pages/post.html" class="text-decoration-none">
+                      <button
+                        class="devcard-likes me-3"
+                        style="
+                          border-radius: 8px;
+                          background-color: white;
+                          border: none;
+                        "
+                      >
+                        <img src="assets/svg/icon-heart.svg" alt="Likes icon" />
+                        <span>87 reactions</span>
+                      </button>
+                    </a>
+                    <a href="pages/post.html" class="text-decoration-none">
+                      <button
+                        class="devcard-comments"
+                        style="
+                          border-radius: 8px;
+                          background-color: white;
+                          border: none;
+                        "
+                      >
+                        <img
+                          src="assets/svg/iccon-comment.svg"
+                          alt="Comment icon"
+                        />
+                        <span>14 comments</span>
+                      </button>
+                    </a>
+                  </div>
+                  <div class="card-read d-flex align-items-center pe-3">
+                    <span class="me-2 text-secondary">2 min read</span>
+                    <button class="btn btn-secondary text-light">Save</button>
+                  </div>
+                </div>
               </section>
               <section class="card card-post p-3" style="margin-top: 10px">
                 <div
