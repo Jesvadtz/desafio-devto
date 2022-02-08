@@ -40,7 +40,9 @@ $(document).ready(function () {
   $("#editPost").click(() => {
     window.location.replace(`new-post.html?idPost=${postId}`);
   });
-
+  $("#homePost").click(() => {
+    window.location.replace(`index.html`);
+  });
   paintPost();
 });
 
