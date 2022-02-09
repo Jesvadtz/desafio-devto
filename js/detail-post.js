@@ -25,7 +25,6 @@ $(document).ready(function () {
           tagsPostNew = data.tags;
         }
         let datePostNew = data.date;
-        // datePostNew.toDateString();
 
         $("#titlePostNew").text(titlePostNew);
         $("#formTextPostNew").text(formTextPostNew);
