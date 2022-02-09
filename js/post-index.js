@@ -80,15 +80,15 @@ const postElement = (name, date, idPost, title, tags) => {
           <div class="devcard-footer bg-white d-flex justify-content-between align-items-center ps-3">
             <div class="d-flex gap-2">
               <a href="#" class="text-decoration-none">
-                <button class="devcard-likes btn ps-0">
-                  <img src="assets/svg/icon-heart.svg" alt="Likes icon" />
-                  <span>0 reactions</span>
+                <button class="devcard-likes btn ps-0 d-flex">
+                  <img src="assets/svg/icon-heart.svg" alt="Likes icon"/>
+                  <span class="pe-1">0</span> <span class="d-none d-lg-block"> reactions</span>
                 </button>
               </a>
               <a href="#" class="text-decoration-none">
-                <button class="devcard-comments btn ps-0">
-                  <img src="assets/svg/iccon-comment.svg" alt="Comment icon" />
-                  <span>0 comments</span>
+                <button class="devcard-comments btn ps-0 d-flex">
+                  <img src="assets/svg/iccon-comment.svg" alt="Comment icon"/>
+                  <span class="pe-1">0</span> <span class="d-none d-lg-block"> comments</span>
                 </button>
               </a>
             </div>
